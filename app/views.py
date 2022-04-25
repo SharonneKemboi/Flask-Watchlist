@@ -1,4 +1,5 @@
 from email import message
+from turtle import title
 from flask import render_template
 from app import app
 
@@ -6,5 +7,11 @@ from app import app
 @app.route('/')
 def index():
           
-    message = 'Hello this my first Flask Project'      
-    return render_template('index.html',message = message)
+    title = 'Home - Welcome To Atarah Movie Review '  
+    return render_template('index.html', title = title)   
+    
+
+@app.route('/movie/<int:movie_id>')
+def movie(movie_id):
+
+    return render_template('movie.html',id = movie_id)
