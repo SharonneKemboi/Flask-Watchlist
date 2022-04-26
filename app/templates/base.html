@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>{{ Welcome to Atarahs Movie the best in the game}}</title>
+    {% endif %}
+
+</head>
+<body>
+    <!--Content Block-->
+     {% block content %}
+
+     {% endblock%}
+</body>
+</html>

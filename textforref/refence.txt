@@ -1,0 +1,19 @@
+Watchlist
+
+Creating Watchlist folder. 
+Git init.
+Create the app folder(Check file and folder structure)
+Create a virtual environment
+
+ python3 -m venv --without-pip virtual (virtual is the name of the env)
+    Activate virtual environment- source virtual/bin/activate
+
+Add gitignore,run and readme files to root folder
+
+Activate the virtual environment and install Flask (pip3 install flask)
+
+Create a __init__.py file and initialize the application - in app folder
+
+Create a templates and static folder in the app folder.
+
+Create a views.py, config.py and error.py files in app folder
