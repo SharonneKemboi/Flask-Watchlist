@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    {% if title %}
-    <title>{{ title }}</title>
-    {% else %}
-    <title>{{ Welcome to Atarahs Movie the best in the game}}</title>
-    {% endif %}
+{% extends 'bootstrap/base.html'%}
 
-</head>
-<body>
-    <!--Content Block-->
-     {% block content %}
-
-     {% endblock%}
-</body>
-</html>
+<!-- Navbar block  --> 
+{% block navbar %}
+    {% include 'navbar.html' %}
+{% endblock %}
