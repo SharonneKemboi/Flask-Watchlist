@@ -1,10 +1,9 @@
 
 from flask import render_template,request,redirect,url_for
 from .import main
-from ..request import get_movie, get_movies,search_movie
+from ..requests import get_movie, get_movies,search_movie
 from ..models import Review
 from .forms import ReviewForm
-
 
 
 #Views
