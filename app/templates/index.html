@@ -16,23 +16,23 @@
         <form>
             <div class="row g-3 align-items-center">
                 <div class="col-8">
-                    <input type="text" name="movie_query" placeholder="Search for a Movie" class="form-control">
+                    <input type="text" name="movie_query" placeholder="Search for a Movie" class="form-control" style="background-color:rgb(252, 250, 253) ; font-size: 1.7rem;">
                 </div>
                 <div class="col-2">
-                    <input type="submit" value="Submit" class="btn btn-default">
+                    <input type="submit" value="Submit" class="btn btn-lg " style="background-color:green ; margin-top:1%; color: aqua;">
                 </div>
             </div>
         </form>
     </div>
     
     <!-- Popular movie -->
-    <h3 class="title-heading"> Popular Movies</h3>
+    <h3 class="title-heading" style="color: aqua;"> Popular Movies</h3>
     <div class="row">
         <div class="col-3">{{ macro.displayMovieList(popular)}}</div>
     </div>
 
     <!-- Upcoming movie  -->
-    <h3 class="title-heading"> Upcoming Movies </h3>
+    <h3 class="title-heading" style="color:aqua ;"> Upcoming Movies </h3>
     <div class="row">
         <div class="col-3">
             {{ macro.displayMovieList(upcoming)}}
@@ -40,7 +40,7 @@
     </div>
 
     <!-- Now showing movie -->
-    <h3 class="title-heading">Now Showing</h3>
+    <h3 class="title-heading" style="color:aqua ;">Now Showing</h3>
     <div class="row">
         <div class="col-3">{{ macro.displayMovieList(now_showing)}}</div>
     </div>

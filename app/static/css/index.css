@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    scroll-behavior: smooth ;
+
+}
+
+   
+body {
+
+    font-family: 'Gabriela', sans-serif;
+    background-color: rgb(7, 7, 7);
+    background-image: url("../photos/photo-1489599849927-2ee91cede3ba.avif");
+    
+    
+}     
+
+ul li a{
+    color: greenyellow;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+li a{
+    color: aqua;
+}
