@@ -31,3 +31,7 @@ ul li a{
 li a{
     color: aqua;
 }
+
+p,h3{
+    color: aliceblue;
+}
