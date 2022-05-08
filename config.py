@@ -29,7 +29,7 @@ class Config:
 
 
 class ProdConfig(Config):
-    pass
+     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 class TestConfig(Config):
      SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:Atara2030@localhost/watchlist_test'
